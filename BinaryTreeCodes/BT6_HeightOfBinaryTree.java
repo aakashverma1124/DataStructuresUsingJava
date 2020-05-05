@@ -7,7 +7,7 @@
 *	
 * 	Output: 
 *	Traversal is: 1 2 4 5 3 6 7 
-*	Number Of Leaf Nodes: 4
+*	Height Of Binary Tree: 2
 *
 */
 
