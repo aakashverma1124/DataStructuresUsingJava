@@ -3,11 +3,11 @@
 *   @author
 *   Aakash Verma
 * 	
-*	Problem: Given a Binary Tree, count the total number of leaf nodes present in BT.
+*	Problem: Given a Binary Tree, count the total number of nodes present in BT.
 *	
 * 	Output: 
 *	Traversal is: 1 2 4 5 3 6 7 
-*	Number Of Leaf Nodes: 4
+*	Number Of Nodes: 7
 *
 */
 
@@ -29,27 +29,24 @@ class Node {
 }
 
 /* Defining class for the Binary Tree */
-class NumOfLeafNodesBinaryTree {
+class BT2_NumOfNodesBinaryTree {
 
     /* Creating a root node for the Tree. */
     static Node root;
     
 
     /* Assigning root as null initially. */
-    NumOfLeafNodesBinaryTree() {
+    BT2_NumOfNodesBinaryTree() {
         root = null;
     }
 
-    /* Counting number Of Leaf Nodes */
-    int numLeafNodes(Node root) {
+    /* Counting number Of Nodes */
+    int numNodes(Node root) {
     	if(root == null) {
     		return 0;
     	}
-        if(root.left == null && root.right == null) {
-            return 1;
-        }
     	else {
-    		return numLeafNodes(root.left) + numLeafNodes(root.right);
+    		return 1 + numNodes(root.left) + numNodes(root.right);
     	}
     }
     
@@ -63,9 +60,10 @@ class NumOfLeafNodesBinaryTree {
         preOrder(root.right);
     }
     
+	
     /* main method */
     public static void main (String[] args) {
-        NumOfLeafNodesBinaryTree tree = new NumOfLeafNodesBinaryTree();
+        BT2_NumOfNodesBinaryTree tree = new BT2_NumOfNodesBinaryTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
@@ -76,7 +74,7 @@ class NumOfLeafNodesBinaryTree {
         System.out.print("Traversal is: ");
         tree.preOrder(root);
         System.out.println();
-        System.out.print("Number Of Leaf Nodes: " + tree.numLeafNodes(root));
+        System.out.print("Number Of Nodes: " + tree.numNodes(root));
         System.out.println();
     }
 }

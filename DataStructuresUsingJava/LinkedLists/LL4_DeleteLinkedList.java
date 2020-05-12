@@ -3,11 +3,12 @@
 *   @author
 *   Aakash Verma
 *	
-* 	Simple Creation and Traversal of a Linked List.
+* 	Deleting a Linked List in java is easy just set point to null.
 *
 *	Output: 
 *
 *	List is: 1 2 3 	
+*	The list is deleted.
 *
 *
 *
@@ -26,14 +27,14 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Linked List. */
-class LinkedList {
+class LL4_DeleteLinkedList {
 
 	/* Declaring a head node. */
 	static Node head;
 
 
 	/* Defining a constructor which sets head node as null initially. */
-	LinkedList() {
+	LL4_DeleteLinkedList() {
 		head = null;
 	}
 
@@ -47,16 +48,22 @@ class LinkedList {
 
 	}
 
+	void deleteList() {
+		head = null;
+		System.out.println("The list is deleted!");
+	}
+
 	/* Main method. */
 	public static void main(String args[]) {
 
-		LinkedList list = new LinkedList();
+		LL4_DeleteLinkedList list = new LL4_DeleteLinkedList();
 		list.head = new Node(1);
 		list.head.next = new Node(2);
 		list.head.next.next = new Node(3);
 		System.out.print("List is: ");
 		list.printList();
 		System.out.println();
-
+		list.deleteList();
+		System.out.println();
 	}
 }

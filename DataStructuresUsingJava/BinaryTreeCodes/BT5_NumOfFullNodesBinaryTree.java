@@ -3,19 +3,16 @@
 *   @author
 *   Aakash Verma
 * 	
-*	Problem: Given a Binary Tree, count the total number of non-leaf nodes present in BT.
+*	Problem: Given a Binary Tree, count the total number of full nodes present in BT.
 *	
 * 	Output: 
 *	Traversal is: 1 2 4 5 3 6 7 
-*	Number Of non-Leaf Nodes: 3
+*	Number Of Full Nodes: 3
 *
 */
 
-
 /* Creating a structure for the node.
    Initializing the nodes datas upon calling its constructor. */
-
-
 class Node {
 	int data;
 	Node left;
@@ -29,28 +26,27 @@ class Node {
 }
 
 /* Defining class for the Binary Tree */
-class NumOfNonLeafNodesBinaryTree {
+class BT5_NumOfFullNodesBinaryTree {
 
     /* Creating a root node for the Tree. */
     static Node root;
     
 
     /* Assigning root as null initially. */
-    NumOfNonLeafNodesBinaryTree() {
+    BT5_NumOfFullNodesBinaryTree() {
         root = null;
     }
 
-    /* Counting number Of non-Leaf Nodes */
-    int numNonLeafNodes(Node root) {
+    /* Counting number Of Full Nodes */
+    int numFullNodes(Node root) {
     	if(root == null) {
     		return 0;
     	}
-        if(root.left == null && root.right == null) {
-            return 0;
+        if(root.left == null && root.right == null) { /* if both left & right of a node are null */
+			return 0;								  /* then, it is strictly a leaf node. */
+            
         }
-    	else {
-    		return 1 + numNonLeafNodes(root.left) + numNonLeafNodes(root.right);
-    	}
+    	return numFullNodes(root.left) + numFullNodes(root.right) + (((root.left != null) && (root.right != null)) ? 1 : 0);
     }
     
     /* Pre Order Traversal */
@@ -65,7 +61,7 @@ class NumOfNonLeafNodesBinaryTree {
     
     /* main method */
     public static void main (String[] args) {
-        NumOfNonLeafNodesBinaryTree tree = new NumOfNonLeafNodesBinaryTree();
+        BT5_NumOfFullNodesBinaryTree tree = new BT5_NumOfFullNodesBinaryTree();
         tree.root = new Node(1);
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
@@ -76,7 +72,7 @@ class NumOfNonLeafNodesBinaryTree {
         System.out.print("Traversal is: ");
         tree.preOrder(root);
         System.out.println();
-        System.out.print("Number Of non-Leaf Nodes: " + tree.numNonLeafNodes(root));
+        System.out.print("Number Of Full Nodes: " + tree.numFullNodes(root));
         System.out.println();
     }
 }

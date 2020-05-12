@@ -16,7 +16,6 @@
 *
 */
 
-
 /* Below is the structute of a node which is used to create a new node every time. */
 class Node {
 	int data;
@@ -29,10 +28,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Insertion in a Linked List. */
-class LinkedListInsertion {
+class LL2_LinkedListInsertion {
 	static Node head;
 
-	LinkedListInsertion() {
+	LL2_LinkedListInsertion() {
 		head = null;
 	}
 
@@ -99,7 +98,7 @@ class LinkedListInsertion {
 
 	/* Main method. */
 	public static void main(String args[]) {
-		LinkedListInsertion list = new LinkedListInsertion();
+		LL2_LinkedListInsertion list = new LL2_LinkedListInsertion();
 
 		list.head = new Node(1);
 		list.head.next = new Node(2);

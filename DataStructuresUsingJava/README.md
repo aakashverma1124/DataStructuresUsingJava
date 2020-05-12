@@ -9,5 +9,5 @@ There are some pre-requisites for following this repository:
 <ul>
   <li> You need to be good at Java.</li>
   <li> You should have proper understaing of OOPs.</li>
-  <li> And you should already know the concepts and algorithms for implementing these Data Structures. Only then you'll be able to understand the codes.</li>
+  <li> And you should already have a little bit idea of these concepts and algorithms for implementing these Data Structures. Only then you'll be able to understand the codes.</li>
  </ul>
