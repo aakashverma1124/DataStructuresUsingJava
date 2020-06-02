@@ -37,10 +37,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for getting Nth node in a Linked List. */
-class LL10_MiddleOfLinkedList {
+class LL010_MiddleOfLinkedList {
 	static Node head;
 
-	LL10_MiddleOfLinkedList() {
+	LL010_MiddleOfLinkedList() {
 		head = null;
 	}
 
@@ -92,7 +92,7 @@ class LL10_MiddleOfLinkedList {
 
 	/* Main method */
 	public static void main(String[] args) {
-		LL10_MiddleOfLinkedList list = new LL10_MiddleOfLinkedList();
+		LL010_MiddleOfLinkedList list = new LL010_MiddleOfLinkedList();
 		list.push(1);
 		list.push(2);
 		list.push(3);
