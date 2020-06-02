@@ -27,10 +27,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for searching an element in a Linked List. */
-class LL7_SearchElementInLinkedList {
+class LL007_SearchElementInLinkedList {
 	static Node head;
 
-	LL7_SearchElementInLinkedList() {
+	LL007_SearchElementInLinkedList() {
 		head = null;
 	}
 
@@ -81,7 +81,7 @@ class LL7_SearchElementInLinkedList {
 
 	/* Main method */
 	public static void main(String[] args) {
-		LL7_SearchElementInLinkedList list = new LL7_SearchElementInLinkedList();
+		LL007_SearchElementInLinkedList list = new LL007_SearchElementInLinkedList();
 		list.push(1);
 		list.push(2);
 		list.push(3);
