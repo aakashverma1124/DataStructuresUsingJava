@@ -28,10 +28,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Insertion in a Linked List. */
-class LL2_LinkedListInsertion {
+class LL002_LinkedListInsertion {
 	static Node head;
 
-	LL2_LinkedListInsertion() {
+	LL002_LinkedListInsertion() {
 		head = null;
 	}
 
@@ -98,7 +98,7 @@ class LL2_LinkedListInsertion {
 
 	/* Main method. */
 	public static void main(String args[]) {
-		LL2_LinkedListInsertion list = new LL2_LinkedListInsertion();
+		LL002_LinkedListInsertion list = new LL002_LinkedListInsertion();
 
 		list.head = new Node(1);
 		list.head.next = new Node(2);
