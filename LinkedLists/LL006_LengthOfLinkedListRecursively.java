@@ -27,10 +27,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Count of Nodes in a Linked List. */
-class LL6_LengthOfLinkedListRecursively {
+class LL006_LengthOfLinkedListRecursively {
 	static Node head;
 
-	LL6_LengthOfLinkedListRecursively() {
+	LL006_LengthOfLinkedListRecursively() {
 		head = null;
 	}
 
@@ -64,7 +64,7 @@ class LL6_LengthOfLinkedListRecursively {
 
 	/* Main method */
 	public static void main(String[] args) {
-		LL6_LengthOfLinkedListRecursively list = new LL6_LengthOfLinkedListRecursively();
+		LL006_LengthOfLinkedListRecursively list = new LL006_LengthOfLinkedListRecursively();
 		list.push(1);
 		list.push(2);
 		list.push(3);
