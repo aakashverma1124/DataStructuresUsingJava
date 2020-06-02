@@ -28,11 +28,11 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Deletion in a Linked List. */
-class LL3_LinkedListDeletion {
+class LL003_LinkedListDeletion {
 
 	static Node head;
 
-	LL3_LinkedListDeletion() {
+	LL003_LinkedListDeletion() {
 		head = null;
 	}
 
@@ -90,7 +90,7 @@ class LL3_LinkedListDeletion {
 
 	/* Main method. */
 	public static void main(String args[]) {
-		LL3_LinkedListDeletion list = new LL3_LinkedListDeletion();
+		LL003_LinkedListDeletion list = new LL003_LinkedListDeletion();
 		list.push(3);
 		list.push(4);
 		list.push(5);
