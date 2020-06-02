@@ -27,14 +27,14 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Linked List. */
-class LL4_DeleteLinkedList {
+class LL004_DeleteLinkedList {
 
 	/* Declaring a head node. */
 	static Node head;
 
 
 	/* Defining a constructor which sets head node as null initially. */
-	LL4_DeleteLinkedList() {
+	LL004_DeleteLinkedList() {
 		head = null;
 	}
 
@@ -56,7 +56,7 @@ class LL4_DeleteLinkedList {
 	/* Main method. */
 	public static void main(String args[]) {
 
-		LL4_DeleteLinkedList list = new LL4_DeleteLinkedList();
+		LL004_DeleteLinkedList list = new LL004_DeleteLinkedList();
 		list.head = new Node(1);
 		list.head.next = new Node(2);
 		list.head.next.next = new Node(3);
