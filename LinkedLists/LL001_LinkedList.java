@@ -26,14 +26,14 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Linked List. */
-class LL1_LinkedList {
+class LL001_LinkedList {
 
 	/* Declaring a head node. */
 	static Node head;
 
 
 	/* Defining a constructor which sets head node as null initially. */
-	LL1_LinkedList() {
+	LL001_LinkedList() {
 		head = null;
 	}
 
@@ -50,7 +50,7 @@ class LL1_LinkedList {
 	/* Main method. */
 	public static void main(String args[]) {
 
-		LL1_LinkedList list = new LL1_LinkedList();
+		LL001_LinkedList list = new LL001_LinkedList();
 		list.head = new Node(1);
 		list.head.next = new Node(2);
 		list.head.next.next = new Node(3);
