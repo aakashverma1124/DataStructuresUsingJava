@@ -27,10 +27,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for searching an element in a Linked List Recursively. */
-class LL8_SearchElementInLinkedList {
+class LL008_SearchElementInLinkedList {
 	static Node head;
 
-	LL8_SearchElementInLinkedList() {
+	LL008_SearchElementInLinkedList() {
 		head = null;
 	}
 
@@ -75,7 +75,7 @@ class LL8_SearchElementInLinkedList {
 
 	/* Main method */
 	public static void main(String[] args) {
-		LL8_SearchElementInLinkedList list = new LL8_SearchElementInLinkedList();
+		LL008_SearchElementInLinkedList list = new LL008_SearchElementInLinkedList();
 		list.push(1);
 		list.push(2);
 		list.push(3);
