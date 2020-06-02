@@ -27,10 +27,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for Count of Nodes in a Linked List. */
-class LL5_LengthOfLinkedList {
+class LL005_LengthOfLinkedList {
 	static Node head;
 
-	LL5_LengthOfLinkedList() {
+	LL005_LengthOfLinkedList() {
 		head = null;
 	}
 
@@ -65,7 +65,7 @@ class LL5_LengthOfLinkedList {
 
 	/* Main method */
 	public static void main(String[] args) {
-		LL5_LengthOfLinkedList list = new LL5_LengthOfLinkedList();
+		LL005_LengthOfLinkedList list = new LL005_LengthOfLinkedList();
 		list.push(1);
 		list.push(2);
 		list.push(3);
