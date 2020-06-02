@@ -27,10 +27,10 @@ class Node {
 }
 
 /* Creating a class for implementing the code for getting Nth node in a Linked List. */
-class LL11_DetectLoopInLinkedList {
+class LL011_DetectLoopInLinkedList {
 	static Node head;
 
-	LL11_DetectLoopInLinkedList() {
+	LL011_DetectLoopInLinkedList() {
 		head = null;
 	}
 
@@ -71,7 +71,7 @@ class LL11_DetectLoopInLinkedList {
 
 	/* Main method */
 	public static void main(String[] args) {
-		LL11_DetectLoopInLinkedList list = new LL11_DetectLoopInLinkedList();
+		LL011_DetectLoopInLinkedList list = new LL011_DetectLoopInLinkedList();
 		list.push(1);
 		list.push(2);
 		list.push(3);
