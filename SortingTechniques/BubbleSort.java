@@ -19,6 +19,9 @@
 *	The idea is simple, we are comparing each element and shifting it at right position.
 *	Try to dry and run this example. You'll definitely get of it.
 *
+*	Time Complexity: O(n^2)
+*	Space Complexity: O(1)
+*
 *
 *
 */
