@@ -12,9 +12,9 @@
 *
 * Aakash Verma
 *				
-* Given BST:						10
-*								  /    \	
-*								 5		20
+* Given BST:						 	10
+*							      /    \	
+*							     5	    20
 *							    / \	   /  \
 * 							   2   7  15   25
 *
@@ -44,14 +44,14 @@ class Node {
 }
 
 /* Defining class for the Binary Search Tree */
-class BST1_Search {
+class BST001_Search {
 
 	/* Creating a root node for the Tree. */
 	static Node root;
 
 
 	/* Assigning root as null initially. */
-	BST1_Search() {
+	BST001_Search() {
 
 		root = null;
 	}
@@ -71,7 +71,7 @@ class BST1_Search {
 
 	/* main method */
 	public static void main(String[] args) {
-		BST1_Search tree = new BST1_Search();
+		BST001_Search tree = new BST001_Search();
 		tree.root = new Node(10);
 		tree.root.left = new Node(5);
 		tree.root.right = new Node(20);
