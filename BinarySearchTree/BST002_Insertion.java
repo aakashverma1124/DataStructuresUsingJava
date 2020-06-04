@@ -13,9 +13,9 @@
 *
 * Aakash Verma
 *				
-* Given BST:						10
-*								  /    \	
-*								 5		20
+* Given BST:							10
+*							      /    \	
+*							     5	    20
 *							    / \	   /  \
 * 							   2   7  15   25
 *									   
@@ -23,12 +23,12 @@
 *
 * Input: 17
 * Output: 							10
-*								  /    \	
-*								 5		20
+*							      /    \	
+*							     5	    20
 *							    / \	   /  \
 * 							   2   7  15   25
-*									   \
-*										17	
+*									 \
+*								 	  17	
 *
 * BST before insertion: 2 5 7 10 15 20 25 
 * BST after insertion: 2 5 7 10 15 17 20 25 
