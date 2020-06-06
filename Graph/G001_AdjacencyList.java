@@ -58,7 +58,7 @@ class Graph {
 		the list present at uth index in list[].
 		For example: If I call addEdge(2, 5) & again addEdge(2, 6);
 		[0] => [...]
-		[1]	=> [...]
+		[1] => [...]
 		[2] => [5, 6]
 		[3] => [...]
 		 .
