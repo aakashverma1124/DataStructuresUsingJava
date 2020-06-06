@@ -38,8 +38,8 @@ class Graph {
 		list = new LinkedList[numberOfVertices];
 
 		for (int i = 0; i < numberOfVertices; i++) {
-            list[i] = new LinkedList<Integer>();
-        }
+            		list[i] = new LinkedList<Integer>();
+        	}
 	}
 
 	/* 
