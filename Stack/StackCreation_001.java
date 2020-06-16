@@ -27,7 +27,7 @@ class StackCreation_001 {
 	static final int MAX = 1000;
 	/* 
 		this top variable plays an important role in stack. This variable tells us whether the stack 
-		is empty or full
+		is empty or full. Also we always insert element at the top and delete element from the top.
 	*/
 	int top;
 	int a[] = new int[MAX]; // we'll assume this array as a stack.
