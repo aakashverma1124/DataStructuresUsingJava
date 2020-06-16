@@ -101,7 +101,7 @@ class S02_StackUsingLinkedList {
 	}
 
 	/* 
-		If isEmpty() returns true, we can't deleted element.
+		If isEmpty() returns true, we can't delete element.
 		Otherwise we return root.data because everytime root points to last added element, 
 		so we directly return root.data and we make root = root.next;
 	*/
