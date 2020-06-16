@@ -21,7 +21,7 @@
 */
 
 
-class StackCreation_001 {
+class S01_StackCreation {
 
 	/* We are assuming that the size of our stack is 1000, you may take any size */
 	static final int MAX = 1000;
@@ -33,7 +33,7 @@ class StackCreation_001 {
 	int a[] = new int[MAX]; // we'll assume this array as a stack.
 
 	/* As soon as the object of this class is created, top is assigned as -1. */
-	StackCreation_001() {
+	S01_StackCreation() {
 		top = -1;
 	}
 
@@ -98,7 +98,7 @@ class StackCreation_001 {
  	}
 
 	public static void main(String[] args) {
-		StackCreation_001 stack = new StackCreation_001();
+		S01_StackCreation stack = new S01_StackCreation();
 		stack.push(10); // now top is 10
 		stack.push(20); // now top is 20
 		stack.push(30); // now top is 30
