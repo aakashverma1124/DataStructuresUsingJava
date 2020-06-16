@@ -54,7 +54,7 @@ class S02_StackUsingLinkedList {
 		Node node = new Node(key);
 
 		/* 	
-			if intially stack is empty, the created node will be made as a root, because there will be 
+			if initially stack is empty, the created node will be made as a root, because there will be 
 			only one node in the stack.
 		*/
 		if(isEmpty()) {
@@ -93,7 +93,7 @@ class S02_StackUsingLinkedList {
 		*/
 		else {
 			Node tempNode = root;
-			root = node;
+			root = node;  // from line number 54
 			node.next = tempNode; 
 		}
 		System.out.println("The element is pushed and top points to => " + root.data);
