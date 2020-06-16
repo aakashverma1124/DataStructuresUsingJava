@@ -107,5 +107,4 @@ class S01_StackCreation {
 		System.out.println("Top element is: " + stack.peek());
 	}
 
-
 }
