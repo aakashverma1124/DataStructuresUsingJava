@@ -72,7 +72,7 @@ class StackCreation_001 {
 
 	}
 
-	/* function to deleted an element in the stack */
+	/* function to delete an element in the stack, it returns the deleted element otherwise -1. */
 	int pop() {
 		/* if top is -1, it means there is no element to be deleted */
 		if(isEmpty()) {
