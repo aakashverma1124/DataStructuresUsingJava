@@ -45,7 +45,7 @@ class StackCreation_001 {
 		return false;
 	}
 
-	/* It checks whether the stack is full or not, obviously if top is MAX - 1, the stack will be empty. */
+	/* It checks whether the stack is full or not, obviously if top is MAX - 1, the stack will be full. */
 	boolean isFull() {
 		if(top >= MAX - 1) {
 			return true;
