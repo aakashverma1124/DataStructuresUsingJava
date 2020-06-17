@@ -79,8 +79,13 @@ class S03_BalancedParenthesis {
 				}
 			}
 		}
-		/* if everything is perfect till here, means the expression is balanced */
-		return true;
+		/* 
+			if everything is perfect till here and stack becomes empty, means the expression is balanced
+			otherwise, if stack doesn't become empty, then return false.
+		 */
+		if(stack.empty())
+			return true;
+		return false;
 	}
 
 	public static void main(String[] args) {
