@@ -10,7 +10,7 @@
 import java.util.*;
 import java.io.*;
 
-class BuildingSegmentTree {
+class ST01_BuildingSegmentTree {
 
 	/* Building a Segment Tree */
 	static void buildTree(int arr[], int tree[], int start, int end, int index) {
