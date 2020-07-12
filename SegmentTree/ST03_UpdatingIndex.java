@@ -21,7 +21,7 @@
 import java.util.*;
 import java.io.*;
 
-class UpdatingIndex {
+class ST03_UpdatingIndex {
 
 	/* 
 		Building a Segment Tree
