@@ -14,7 +14,12 @@ class BuildingSegmentTree {
 
 	/* Building a Segment Tree */
 	static void buildTree(int arr[], int tree[], int start, int end, int index) {
+		/* Base Case */
+		if(start > end) {
+			return;
+		}
 
+		/* Base Case */
 		if(start == end) {
 			tree[index] = arr[start];
 			return;
@@ -37,10 +42,12 @@ class BuildingSegmentTree {
 		int index = 1;
 
 		buildTree(arr, tree, start, end, index);
-
+		/* Printing Segment Tree */
 		for(int i = 1; i < tree.length; i++) {
 			System.out.print(tree[i] + " ");
 		}
+		System.out.println();
+
 		
 
 	}
