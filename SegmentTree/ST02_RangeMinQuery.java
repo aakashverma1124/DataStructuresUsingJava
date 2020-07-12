@@ -9,7 +9,7 @@
 import java.util.*;
 import java.io.*;
 
-class RangeMinQuery {
+class ST02_RangeMinQuery {
 
 	static int rangeMinQuery(int tree[], int index, int start, int end, int queryStart, int queryEnd) {
 
