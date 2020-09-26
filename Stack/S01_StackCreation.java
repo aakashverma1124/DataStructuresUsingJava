@@ -5,7 +5,7 @@
 	Stack is a LIFO data structures:
 	LIFO stands for Last In First Out 
 
-	We can't access any element accept top. Top is that element which has been inserted at last
+	We can't access any element except top. Top is that element which has been inserted at last
 	and can be retrieved first.
 
 	I am assuming that you are here after going through the theory of Stack and looking for implementation.
